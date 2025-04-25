@@ -1,0 +1,10 @@
+@media (max-width: 1200px) {
+  .left {
+    width: 90%
+  }
+}
+
+.title {
+  width: fit-content;
+  position: relative
+}

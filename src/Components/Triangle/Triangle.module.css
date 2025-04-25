@@ -1,0 +1,9 @@
+.triangle {
+  width: 90%;
+  height: 50%;
+  background-color: #E7D8F3;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+  z-index: -1
+}

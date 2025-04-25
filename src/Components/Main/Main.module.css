@@ -1,0 +1,30 @@
+.main {
+  margin-top: 80px;
+  margin-bottom: 280px;
+  text-align: center
+}
+
+.header {
+  width: fit-content;
+  margin: auto;
+  color: var(--secondery-color);
+  font-size: 24px;
+  position: relative
+}
+
+.footer {
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px
+}
+
+.footer span {
+  color: var(--primary-color);
+  font-weight: bold
+}
+
+.footer span:last-of-type {
+  color: var(--secondary-color)
+}

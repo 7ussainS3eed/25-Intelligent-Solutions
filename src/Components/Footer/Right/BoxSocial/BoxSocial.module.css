@@ -1,0 +1,18 @@
+.boxSocial {
+  background-color: rgba(237, 249, 255, 1);
+  width: 48%;
+  box-sizing: border-box;
+  padding: 14px 30px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px
+}
+
+.boxSocial:nth-child(2),
+.boxSocial:nth-child(3) {
+  background-color: rgba(208, 177, 231, 0.19)
+}

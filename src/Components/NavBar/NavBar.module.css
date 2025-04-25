@@ -1,0 +1,89 @@
+.navBar {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.burger {
+  display: none;
+  padding: 10px;
+  flex-direction: column;
+  gap: 5px
+}
+
+.burgerLine {
+  width: 25px;
+  height: 3px;
+  background-color: var(--primary-color);
+  border-radius: 2px
+}
+
+.menu {
+  display: flex;
+  gap: 30px
+}
+
+@media (max-width: 1200px) {
+  .burger {
+    display: flex
+  }
+  .menu {
+    display: none
+  }
+  .menuOpen {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+  }
+}
+
+.primMenuEle {
+  padding: 12px 10px;
+  background-color: transparent;
+  color: var(--secondary-color);
+  font-weight: bold;
+  border: none;
+  border-radius: 16px
+}
+
+.active {
+  border: 1px solid var(--primary-color)
+}
+
+.custMenuEle {
+  background-color: rgba(231, 216, 243, 0.5);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color)
+}
+
+.btnsContainer {
+  display: flex;
+  gap: 15px
+}
+
+.btnsContainer button {
+  padding: 12px 14px;
+  background-color: rgba(231, 216, 243, 1);
+  color: var(--primary-color);
+  font-weight: bold;
+  border-radius: 12px;
+  border: 1px solid var(--primary-color)
+}
+
+.btnsContainer button:last-of-type {
+  padding: 12px 30px;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px
+}

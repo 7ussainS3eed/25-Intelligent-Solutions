@@ -1,0 +1,16 @@
+.way {
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: flex;
+  gap: 20px;
+  align-items: center
+}
+
+.way img {
+  width: 35px
+}
+
+.way p {
+  font-size: 13px;
+  direction: ltr
+}

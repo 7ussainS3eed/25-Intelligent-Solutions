@@ -1,0 +1,25 @@
+.mid {
+  width: 25%
+}
+
+@media (max-width: 1200px) {
+  .mid {
+    width: 90%
+  }
+}
+
+.title {
+  width: fit-content;
+  position: relative
+}
+
+.links {
+  display: flex;
+  gap: 25px
+}
+
+@media (max-width: 1200px) {
+  .links {
+    flex-direction: column
+  }
+}

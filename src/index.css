@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #59287F; 
+  --secondary-color: #1A1A1A;
+}
+
+@font-face {
+  font-family: 'NorsalGX';
+  src: url('./assets/fonts/alfont_com_NorsalGX.ttf') format('truetype');
+  font-weight: normal, bold;
+  font-style: normal
+}
+
+body {
+  font-family: 'NorsalGX', sans-serif;
+  background-image: url(../src/assets/backgrounds/header\ background.png), url(../src/assets/backgrounds/circle-1.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top center, top left;
+  background-size: 100% auto, 40% auto
+}
+
+.container {
+  width: 100%;  
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0 15px
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 100%
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 0 5px
+  }
+}

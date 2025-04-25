@@ -1,4 +1,4 @@
-.rights {
+.rights {  
   padding: 20px;
   font-weight: bold;
   border-top: 1px solid rgb(207, 207, 207);
@@ -10,4 +10,13 @@
 
 .rights span {
   color: var(--primary-color)
+}
+
+@media (max-width: 1200px) {
+  .rights {
+    flex-direction: column
+  }
+  .rights span {
+    margin-bottom: 25px
+  }
 }

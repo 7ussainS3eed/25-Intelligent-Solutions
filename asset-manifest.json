@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/25-Intelligent-Solutions/static/css/main.2232b5a8.css",
+    "main.js": "/25-Intelligent-Solutions/static/js/main.17174bb0.js",
+    "static/media/circle-1.png": "/25-Intelligent-Solutions/static/media/circle-1.a625d03eebbd2b65ef95.png",
+    "static/media/alfont_com_NorsalGX.ttf": "/25-Intelligent-Solutions/static/media/alfont_com_NorsalGX.906310d1e0ce84de8040.ttf",
+    "static/media/grid background.png": "/25-Intelligent-Solutions/static/media/grid background.7f2d7e5070f3d44b5ef1.png",
+    "static/media/header background.png": "/25-Intelligent-Solutions/static/media/header background.1983f9c7422162f37831.png",
+    "index.html": "/25-Intelligent-Solutions/index.html",
+    "main.2232b5a8.css.map": "/25-Intelligent-Solutions/static/css/main.2232b5a8.css.map",
+    "main.17174bb0.js.map": "/25-Intelligent-Solutions/static/js/main.17174bb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2232b5a8.css",
+    "static/js/main.17174bb0.js"
+  ]
+}

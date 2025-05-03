@@ -1,3 +1,7 @@
+Walkthrough Video...<br>https://drive.google.com/file/d/1VBnHXzAhkmgHCvv13N8vfNlkbA5RrmWu/view?usp=drive_link
+<br><br>
+Live Demo...<br>https://7ussains3eed.github.io/25-Intelligent-Solutions/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

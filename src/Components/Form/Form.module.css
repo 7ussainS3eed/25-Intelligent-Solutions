@@ -4,17 +4,17 @@ section {
   margin-bottom: 65px;
   background-image: url("../../assets/backgrounds/grid\ background.png");
   box-sizing: border-box;
-  padding: 50px 120px;
+  padding: 35px 120px 70px;
   text-align: center;
   border: 1px solid var(--primary-color);
   border-radius: 30px;
-  position: relative;
+  position: relative
 }
 
 section .loopArrow {
   position: absolute;
-  top: 140px;
-  right: 160px;
+  top: 135px;
+  right: 160px
 }
 
 @media (max-width: 1200px) {
@@ -29,11 +29,12 @@ section .header {
 
 section .header h2 {
   margin-bottom: 20px;
-  font-size: 42px
+  font-size: 42px;
+  line-height: 1.4
 }
 
 section .header p {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   font-size: 16px;
   font-weight: bold
 }
@@ -51,7 +52,7 @@ section .form .first {
 
 section .form .first div {
   width: 49%;
-  position: relative;
+  position: relative
 }
 
 section .form .first div img {
@@ -99,7 +100,7 @@ section .form .second {
 section .form .second img {
   position: absolute;
   top: 12px;
-  right: 10px;
+  right: 10px
 }
 
 section .form .second textarea {

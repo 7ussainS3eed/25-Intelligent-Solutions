@@ -1,7 +1,8 @@
 import styles from "./Footer.module.css";
-import Right from "./Right/Right"
-import Mid from "./Mid/Mid"
-import Left from "./Left/Left"
+
+import Right from "./Right/Right";
+import Mid from "./Mid/Mid";
+import Left from "./Left/Left";
 
 function Footer({logo, emailIcon, phoneIcon, whatsIcon, email, phone, whats}) {
   return (
@@ -20,4 +21,4 @@ function Footer({logo, emailIcon, phoneIcon, whatsIcon, email, phone, whats}) {
   )
 }
 
-export default Footer
+export default Footer;

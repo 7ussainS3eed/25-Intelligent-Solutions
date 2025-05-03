@@ -1,4 +1,5 @@
 import styles from "./Left.module.css";
+
 import Triangle from "../../Triangle/Triangle";
 import Way from "./Way/Way";
 
@@ -30,4 +31,4 @@ function Left({emailIcon, phoneIcon, whatsIcon, email, phone, whats}) {
   )
 }
 
-export default Left
+export default Left;

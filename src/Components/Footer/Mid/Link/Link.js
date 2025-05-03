@@ -9,4 +9,4 @@ function Link({text}) {
   )
 }
 
-export default Link
+export default Link;

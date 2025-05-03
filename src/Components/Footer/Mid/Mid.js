@@ -1,4 +1,5 @@
 import styles from "./Mid.module.css";
+
 import Triangle from "../../Triangle/Triangle";
 import Link from "./Link/Link";
 
@@ -28,4 +29,4 @@ function Mid() {
   )
 }
 
-export default Mid
+export default Mid;

@@ -1,5 +1,6 @@
-import styles from "./Main.module.css"
-import Triangle from "../Triangle/Triangle"
+import styles from "./Main.module.css";
+
+import Triangle from "../Triangle/Triangle";
 
 function Main() {
   return (
@@ -14,7 +15,7 @@ function Main() {
         <span>نبذة عنا</span>
       </div>
     </div>
-  )
+  );
 }
 
-export default Main
+export default Main;

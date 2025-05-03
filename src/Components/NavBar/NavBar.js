@@ -1,5 +1,7 @@
 import {useState} from 'react';
+
 import styles from './NavBar.module.css';
+
 import Arrow from "../Arrow/Arrow";
 
 function NavBar({logo}) {

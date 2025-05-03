@@ -1,5 +1,6 @@
-import styles from "./Boxes.module.css"
-import Box from "./Box/Box"
+import styles from "./Boxes.module.css";
+
+import Box from "./Box/Box";
 
 function Boxes({emailIcon, phoneIcon, whatsIcon}) {
   return (
